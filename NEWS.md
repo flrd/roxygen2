@@ -1,5 +1,9 @@
 # roxygen2 (development version)
 
+* Links that contains markup like ``[foo `bar`][target]`` now cause an
+  informative error. They would previously generate invalid Rd markup
+  that failed at runtime.
+
 * Curly braces in markdown links are now escaped (#1259).
 
 # roxygen2 7.1.2
