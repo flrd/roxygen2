@@ -1,5 +1,8 @@
 # roxygen2 (development version)
 
+* `current_path` and `current_file` are now valid options for
+  `roxy_meta_get()` (#1243).
+
 * Links that contains markup like ``[foo `bar`][target]`` now cause an
   informative error. They would previously generate invalid Rd markup
   that failed at runtime.
